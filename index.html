@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<title>5170 | System Admin</title>
+
+<meta charset="UTF-8" />
+<meta name="description" content="bestsysadmin.me" />
+<meta name="author" content="5170"/>
+<meta property="og:description" content="Legit System Administrator!"/>
+<meta property="og:type" content="site" />
+<meta property="og:title" content="bestsysadmin.me" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/lib/tailwind.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+<body oncontextmenu="return false;">
+    <script>
+
+      document.onkeydown = function (e) {
+          if (event.keyCode == 123) {
+              return false;
+          }
+          if (e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'i'.charCodeAt(0))) {
+              return false;
+          }
+          if (e.ctrlKey && e.shiftKey && (e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'c'.charCodeAt(0))) {
+              return false;
+          }
+          if (e.ctrlKey && e.shiftKey && (e.keyCode == 'J'.charCodeAt(0) || e.keyCode == 'j'.charCodeAt(0))) {
+              return false;
+          }
+          if (e.ctrlKey && (e.keyCode == 'U'.charCodeAt(0) || e.keyCode == 'u'.charCodeAt(0))) {
+              return false;
+          }
+          if (e.ctrlKey && (e.keyCode == 'S'.charCodeAt(0) || e.keyCode == 's'.charCodeAt(0))) {
+              return false;
+          }
+      }
+  </script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+
+    <div id="start">
+        <table class="box consolas-font">
+            <tbody>
+                <tr><td><span id="line1"></span></td></tr>
+                <tr><td><span id="line2"></span></td></tr>
+                <tr><td><span id="line3 space"></span></td></tr>
+                <tr><td><span id="line4"></span></td></tr>
+            </tbody>
+        </table>
+        <button class="text-2xl absolute right-0 bottom-0 bg-gray-700 p-2 rounded-md" onclick="skipIntro()">Skip intro</button>
+    </div>
+    
+    <div id="hiddenBox" style="display:none">
+        <section id="main">
+            <div class="container h-screen consolas-font">
+                <canvas class="w-screen" id="canvas"></canvas>
+                <div class="header-text">
+                    <h1 class="brand-header ">5170 | System Administrator & Developer</h1>
+                    <p class="mt-5 mb-5"><span id="brand"></span></p>                
+                </div>
+            </div>
+        </section>
+        
+        <section id="whoAmI" class="bg-dark-cyan-blue">
+            <div class="grid grid-cols-4 grid-rows-1 gap-16">
+                <div class="col-span-4 text-center text-xl">
+                    <h1>Who am I?</h1>
+                </div>
+                <div class="md:col-span-2 md:col-start-2 col-span-4 content-text text-center">
+                    <p>My name's <b>Max</b>, I've been working with <b>Linux Systems</b> for over <b>2</b> years and have obtained a lot of <b>knowledge</b>. If you are looking for anything related to <b>System Administration</b> make sure to contact me so we can work out what I can do for you.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="customers" class="bg-dark-cyan-blue">
+            <div class="text-center text-xl">
+                <h1>Some of my clients</h1>
+            </div>
+            <div class="relative mt-6">
+                <div class="swiper-container slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex items-center justify-center">
+                            <img src="assets/img/battlerip.jpg"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/esta.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/inkmc.jpeg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/memecraf.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/prismamc.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/pvpgym.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/tabmc.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/crackpixel.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="bg-dark-green">
+            <div class="text-center text-xl">
+                <h1>Skills</h1>
+            </div>
+            <div class="grid grid-cols-4 grid-rows-1 lg:gap-16 md:gap-0 mt-5">
+                <table class="border-collapse w-full lg:col-start-2 md:border-r lg:col-span-1 md:col-span-2 col-span-4 text-center">
+                    <tbody>
+                        <tr>
+                        <td class="border p-2">Docker/Proxmox/Kubernetes</td>
+                        </tr>
+                        <tr>
+                        <td class="border p-2">MongoDB/MySQL/MariaDB/Redis</td>
+                        </tr>
+                        <tr>
+                        <td class="border p-2">Jenkins</td>
+                        </tr>
+                        <tr>
+                        <td class="border p-2">Gradle/Maven</td>
+                        </tr>
+                        <tr>
+                        <td class="border p-2">Nginx/Apache</td>
+                        </tr>
+                        <tr>
+                        <td class="border p-2">AWS/GCP</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                
+                <table class="border-collapse w-full lg:col-start-3 md:border-r lg:col-span-1 md:col-span-2 col-span-4 text-center">
+                    <tbody>
+                        <tr>
+                            <td class="border p-2">Minecraft Packets/Exploits</td>
+                            </tr>
+                            <tr>
+                            <td class="border p-2">Bungeecord/Velocity</td>
+                            </tr>
+                            <tr>
+                            <td class="border p-2">PHP/NodeJS</td>
+                            </tr>
+                            <tr>
+                            <td class="border p-2">Java/Python</td>
+                            </tr>
+                            <tr>
+                            <td class="border p-2">HTML/CSS</td>
+                            </tr>
+                            <tr>
+                            <td class="border p-2">Rust</td>
+                            </tr>
+                        </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-dark-cyan-blue">
+            <div class="text-center text-xl">
+                <h1>Contact</h1>
+            </div>
+            <div class="grid grid-cols-1 grid-rows-1 gap:8 mt-6 text-center">
+                <div class="col-span-1">
+                    <div class="contact-socials justify-center">
+                        <a href="https://github.com/TypicalModMaker"><i class="fab fa-github mr-3"></i></a>
+                        <a href="https://www.youtube.com/@bestsysadmin"><i class="fab fa-youtube mr-3"></i></a>
+                        <i class="fab fa-discord" onclick="showDiscord()"></i>
+                    </div>
+                </div>
+                <div class="col-span-1 mt-6" id="discordNameDiv" style="display:none">
+                    <p class="cursor-pointer" id="discordName" onclick="copyDiscord()">arbitrarycodeexecution</p>
+                </div>
+                <div class="col-span-1 mt-6">
+                    <a href="mailto:5170business@gmail.com" target="_blank">5170business@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/lib/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/lib/jquery.marquee.min.js"></script>
+    <script src="assets/js/lib/jquery.cookie.min.js"></script>
+    <script src="assets/js/lib/typed.min.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+    <script src="assets/js/slider.js"></script>
+</body>
+</html>
