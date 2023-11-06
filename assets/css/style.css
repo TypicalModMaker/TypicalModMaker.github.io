@@ -110,20 +110,24 @@ body, input{
   }
 
 @media (max-width: 900px) {
-    .swiper-slide {
-      min-height: 150px; 
-    }
+        .swiper-slide {
+        min-height: 150px; 
+        }
   }
 
 @media (max-width: 640px) {
-  .swiper-slide {
-    min-height: 250px; 
-  }
+    .swiper-slide {
+        min-height: 250px; 
+    }
 }
 
 @media (max-width: 480px) {
-  .swiper-slide {
-    min-height: 150px; 
-  }
+    .swiper-slide {
+        min-height: 150px; 
+    }
+
+    #whoAmI, #clients, #skills, #contact{
+        padding:70px 30px;
+    }
 }
 
