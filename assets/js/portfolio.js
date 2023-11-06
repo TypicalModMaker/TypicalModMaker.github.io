@@ -1,3 +1,4 @@
+// Yes I know this is leaked, and no I don't care since this is IP based ratelimit
 const ipgeolocation = "https://api.ipgeolocation.io/ipgeo?apiKey=7818157b7cb3451d91169e6b2c24570a";
 const timeouts = [];
 
