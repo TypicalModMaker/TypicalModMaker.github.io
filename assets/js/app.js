@@ -1,4 +1,5 @@
-class _app {
+class _app { 
+    id = 0;
     brandDescription = ['Always Active!', 'Trusted by 30+ customers!', 'Reliable Administrator!'];
     iconChanger = (urls, delay) => {
         if (!urls) return;
