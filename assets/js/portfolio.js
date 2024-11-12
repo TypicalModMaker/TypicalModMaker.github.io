@@ -33,7 +33,7 @@ const writeLine = (text, speed, timeout, callback) => {
 
 $.getJSON(ipgeolocation)
     .done((data) => {
-        writeLine(["Loading...", "Granting access to <span style='font-size: 14px; color: #06d;'>[bestsysadmin.me]</span>..."], 30, () => {
+        writeLine(["Loading...", "Granting access to <span style='font-size: 14px; color: #06d;'>[sysadmin.best]</span>..."], 30, () => {
         if (app.skippedIntro) return;
 
         if(data.ip === 'undefined'){
