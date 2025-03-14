@@ -47,7 +47,7 @@ $.getJSON(ipgeolocation)
         writeLine([`Access granted! <span style='font-size: 14px; color: #0f0;'>[success]</span>`, `Welcome back, <i style='color: #0f0'>${ip}</i>! By the way, nice to see someone from ${country} here!`], 30, 500, () => {
             if (app.skippedIntro) return;
             clearCursor();
-            writeLine([`<i style='color: #F62459'>user@isnow.dev:~$ </i>`], 120, 500, () => {
+            writeLine([`<i style='color: #F62459'>user@sysadmin.best:~$ </i>`], 120, 500, () => {
             timeouts.push(
                 setTimeout(() => {
                 if (app.skippedIntro) return;
